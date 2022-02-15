@@ -4,37 +4,85 @@
     <meta charset="utf-8" >
  <!--   <meta name="viewport" content="width=device-width"> -->
     <title>My First Webpage</title>
- <!--  <link rel="stylesheet" href="styles.css">
-	<link rel="shortcut icon" href="logo.ico">--> 
+    <link rel="icon" href="logo.icon.jpg">
     
 </head>
 <style>
 h1{font-size: 60px;}
 h2{font-size: 30px;}
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
+.button3 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid red;
+}
+
+.button3:hover {
+  background-color: red;
+  color: white;
+}
+.center {
+  text-align: center;
+}
 
 </style>
 <body>
-    <!-- This is a Comment --->
+    <center><button class="button button1">About Me</button>
+    <button class="button button2"><a href="assignment0.html">Assignment 0</a></button></center>
     
     <h1><center><img src="logo.jpg" width="80" height="80" border="0" usemap="#logo" /> Ray Schone <img src="logo.jpg" width="80" height="80" border="0" usemap="#logo" /></center></h1>
     <h6></h6>
     <h2><center>This is where I would put some <br> interesting information about myself</center></h2>
     <h2><center>IF I HAD ANY!</center></h2>
     <h6></h6>
-    <p><center><a href="assignment0.html"> Assignment0</a></center></p>
-        <p>
-            
-                <center><li><a href="https://www.dndbeyond.com/"> Dnd Beyond </a></li></center>
-                <center><li><a href="https://www.heroforge.com/"> Hero Forge </a></li></center>
-                <center><li><a href="https://rpgbot.net/dnd5/"> RPGBOT </a></li></center>
-                <center><li><a href="https://epicpaintevent.com/"> Paint Night Events </a></li></center>
-                <center><li><a href="https://www.imdb.com/"> Internet Movie Database </a></li></center>
-                <center><li><a href="https://www.powerlanguage.co.uk/wordle/"> Wordle </a></li></center>
-                <center><li><a href="https://www.facebook.com/Rayraysglasses"> My Glass Etching Facebook </a></li></center>
-                <center><li><a href="https://www.shopdisney.com/"> Shop Disney </a></li></center>
-                <center><li><a href="https://leasticoulddo.com/"> Least I Could Do Comic Strip </a></li></center>
-                <center><li><a href="https://football.fantasysports.yahoo.com/"> Fantasy Football </a></li></center>
-            
-        </p>
+        <div class="center">
+            <p>
+                <li><a href="https://www.dndbeyond.com/"> Dnd Beyond </a></li>
+                <li><a href="https://www.heroforge.com/"> Hero Forge </a></li>
+                <li><a href="https://rpgbot.net/dnd5/"> RPGBOT </a></li>
+                <li><a href="https://epicpaintevent.com/"> Paint Night Events </a></li>
+                <li><a href="https://www.imdb.com/"> Internet Movie Database </a></li>
+                <li><a href="https://www.powerlanguage.co.uk/wordle/"> Wordle </a></li>
+                <li><a href="https://www.facebook.com/Rayraysglasses"> My Glass Etching Facebook </a></li>
+                <li><a href="https://www.shopdisney.com/"> Shop Disney </a></li>
+                <li><a href="https://leasticoulddo.com/"> Least I Could Do Comic Strip </a></li>
+                <li><a href="https://football.fantasysports.yahoo.com/"> Fantasy Football </a></li>
+            </p>
+        
+            <center><button class="button button3">Do Not Press</button></center>
+        </div>
 </body>
 </html>
